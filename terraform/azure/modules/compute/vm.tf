@@ -20,11 +20,11 @@ resource "azurerm_network_interface" "main" {
 }
 
 resource "azurerm_linux_virtual_machine" "main" {
-  name                = "fiap-vm-rm562093"
-  location            = var.localizacao
-  resource_group_name = var.nome_rg
-  size                = var.tamanho_vm
-  admin_username      = var.usuario_admin
+  name                  = "fiap-vm-rm562093"
+  location              = var.localizacao
+  resource_group_name   = var.nome_rg
+  size                  = var.tamanho_vm
+  admin_username        = var.usuario_admin
   network_interface_ids = [azurerm_network_interface.main.id]
 
   admin_ssh_key {

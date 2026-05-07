@@ -39,3 +39,4 @@ variable "ssh_public_key" {
   sensitive   = true
   description = "Chave SSH pública"
 }
+

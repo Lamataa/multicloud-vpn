@@ -40,3 +40,4 @@ variable "ssh_public_key" {
   description = "Chave SSH pública"
 }
 
+

@@ -24,7 +24,7 @@ variable "subnet_cidr" {
 
 variable "tamanho_vm" {
   type        = string
-  default     = "Standard_B1s"
+  default     = "Standard_D2s_v3"
   description = "Tamanho da VM Azure"
 }
 

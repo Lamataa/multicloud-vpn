@@ -12,4 +12,3 @@ terraform {
     key                  = "azure/terraform.tfstate"
   }
 }
-
